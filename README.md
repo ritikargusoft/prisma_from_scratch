@@ -67,7 +67,3 @@ npx prisma migrate dev --name init
   ```
 * Ensure Node.js and npm are up-to-date but check [Prisma release notes](https://github.com/prisma/prisma/releases) for version compatibility.
 ---
-## License :scroll:
-MIT
-**Happy Coding! :computer::fire:**
----
