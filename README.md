@@ -25,3 +25,14 @@ npm i --save-dev prisma@latest
 npm i @prisma/client@latest 
 
 
+
+
+//To create a migration file with sql commands in selected sql language run 
+npx prisma migrate dev --name init
+
+// in case of any error run 
+npx prisma migrate reset
+//and run 
+npx prisma migrate dev --name init
+
+
